@@ -1,0 +1,274 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+}
+
+#hedders{
+    min-height: 100vh;
+    width:100%;
+    background-image: url(../1369137.jpg);
+    background-size:cover;
+    background-position: top;
+    
+}
+
+#hedders h1{
+    position:absolute;
+    top:30%;
+    left:13%;
+    font-size:4.5em;
+    color:#fff;
+    font-family: 'Rajdhani', sans-serif;  
+}
+
+span::before{
+    content:'The King';
+    animation:animate infinite 5s;
+}
+.fa-bars{
+    color:white;
+    float:right;
+    cursor: pointer;
+    font-size:25px;
+    padding:50px 100px;
+}
+@keyframes animate{
+    0%{
+        content:' The King';
+    }
+    20%{
+        content:' Chosen One';
+    }
+    40%{
+        content:' Greatest Ever';
+    }
+    60%{
+        content:' Role Model';
+    }
+    80%{
+        content:' Kid From Akron';
+    }
+}
+@media (max-width:760px){
+    .about{
+        flex-direction: column;
+    }
+    .about img{
+      width:100%;
+      height:auto;
+    }
+    .header{
+      width:100%;
+      font-size:.7rem;
+    }
+}
+
+.about{
+    width:100%;
+    min-height: 100vh;
+    background:rgb(250, 242, 242);
+    padding: 30px 60px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about img{
+    height:650px;
+    border-radius:31px;
+}
+.about .img{
+    margin-right:30px;
+
+}
+.text-cont h1{
+    font-size:2.5em;
+    
+}
+.text-cont .first{
+    margin-bottom:30px;
+    font-size:1.5em;
+}
+.text-cont  .last{
+    letter-spacing: 1px;
+    line-height:23px;
+}
+main {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../GettyImages-1038077260-e1550770972614.jpg);
+    background-position:top;
+    background-size: cover;
+    color:rgb(236, 223, 223);
+  }
+  
+  .container {
+    width: 80vw;
+    max-width: var(--fixed-width);
+  }
+  .review {
+    background: var(--clr-white);
+    padding: 1.5rem 2rem;
+    border-radius: var(--radius);
+    box-shadow: var(--light-shadow);
+    transition: var(--transition);
+    text-align: center;
+  }
+  .review:hover {
+    box-shadow: var(--dark-shadow);
+  }
+  .img-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+  }
+  #person-img {
+    width: 100%;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+  }
+  
+  .img-container::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: var(--clr-primary-5);
+    position: absolute;
+    top: -0.25rem;
+    right: -0.5rem;
+    border-radius: 50%;
+  }
+  #author {
+    margin-bottom: 0.5rem;
+  }
+  #job {
+    margin-bottom: 2.5rem;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 0.85rem;
+  }
+  #info {
+    margin-bottom: 0.75rem;
+    font-size:1rem;
+    letter-spacing: 1px;
+  }
+  .prev-btn,
+  .next-btn {
+    color: var(--clr-primary-7);
+    font-size: 1.25rem;
+    background: transparent;
+    border-color: transparent;
+    margin: 0 0.5rem;
+    transition: var(--transition);
+    cursor: pointer;
+  }
+  .prev-btn:hover,
+  .next-btn:hover {
+    color:rgb(82, 143, 212);
+  }
+
+  .title{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    font-size:2.9rem;
+    margin-bottom: 2.5rem;;    
+}
+.counter-up{
+  background-color:rgb(250, 242, 242);
+  position:relative;
+  align-items: center;
+  min-height: 40vh;
+  color:rgb(83, 58, 58);
+}
+.counter-up .content{
+  display:flex;
+  z-index:1;
+  flex-wrap:wrap;
+  width:100%;
+  height:100%;
+  align-items: center;
+  justify-content: space-around;
+}
+.content .box{
+  border-radius: 5px;
+  padding:20px;
+  display:flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  flex-direction: column;
+}
+.content .box .counter{
+  font-size:2.5rem;
+}
+.content .box .text{
+  font-size:2rem;
+}
+.counter-up .title{
+  padding-top:20px;
+  letter-spacing: 1px;
+}
+
+
+footer{
+  width:100%;
+  height:45vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color:black;
+  color:white;  
+}
+footer .top{
+  display:flex;
+  margin-bottom:30px;
+}
+footer .top p{
+  margin:20px 20px;
+  cursor:pointer;
+}
+footer .top p:hover{
+  color:grey;
+}
+
+.bottom #firsts{
+  font-size:2rem;
+}
+.bottom #secs{
+  font-size:1.6rem;
+  margin-bottom: 40px;
+}
+.socials{
+  margin-top:20px;
+  width:10%;
+  display: flex;
+  justify-content: space-around;
+  
+}
+.socials .fab{
+  width:40px;
+  height:20px;
+  color:whitE;
+  font-size:20px;
+  margin:0 10px;
+  overflow:hidden;
+  border-radius:100%;
+
+}
+.socials .fab:hover{
+  color:grey;;
+}

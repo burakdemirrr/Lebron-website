@@ -9,7 +9,7 @@
 #hedders{
     min-height: 100vh;
     width:100%;
-    background-image: url(../1369137.jpg);
+    background-image: url(1369137.jpg);
     background-size:cover;
     background-position: top;
     
@@ -101,7 +101,7 @@ main {
     min-height: 100vh;
     display: grid;
     place-items: center;
-    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../GettyImages-1038077260-e1550770972614.jpg);
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(GettyImages-1038077260-e1550770972614.jpg);
     background-position:top;
     background-size: cover;
     color:rgb(236, 223, 223);
@@ -262,7 +262,7 @@ footer .top p:hover{
 .socials .fab{
   width:40px;
   height:20px;
-  color:whitE;
+  color:white;
   font-size:20px;
   margin:0 10px;
   overflow:hidden;
@@ -270,5 +270,5 @@ footer .top p:hover{
 
 }
 .socials .fab:hover{
-  color:grey;;
+  color:grey;
 }

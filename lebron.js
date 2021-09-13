@@ -13,7 +13,7 @@ const reviews = [
       name: "Savannah James",
       job: "",
       img:
-        "../savannah-james-biography.jpg",
+        "savannah-james-biography.jpg",
       text:
         "Lebron James' highschool sweetheart.They've been together since then.They have 3 beautiful kids now.",
     },
